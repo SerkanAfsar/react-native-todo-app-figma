@@ -1,6 +1,6 @@
 import { PlusIcon } from "@/assets/icons";
 import { Alert, ScrollView, Text, TouchableOpacity, View } from "react-native";
-import CustomCheckBox from "./custom-checkbox";
+import CustomCheckBox from "../ui/custom-checkbox";
 
 const items = [
   "Learning Programming by 12PM",

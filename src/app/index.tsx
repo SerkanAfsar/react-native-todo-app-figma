@@ -1,6 +1,6 @@
 import { WellCome } from "@/assets/icons";
-import CustomButton from "@/components/custom-button";
-import TopWrapper from "@/components/top-wrapper";
+import CustomButton from "@/components/ui/custom-button";
+import TopWrapper from "@/components/wrappers/top-wrapper";
 import { getItem } from "@/utils";
 import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
@@ -36,7 +36,7 @@ export default function Index() {
       </Text>
       <CustomButton
         title={name}
-        className="mt-auto"
+        className="mb-10 mt-auto"
         onPress={async () => await handlePress()}
       />
     </TopWrapper>

@@ -17,12 +17,13 @@ export default function CustomCheckBox({
   const [checked, setIsChecked] = useState<boolean>(value);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsChecked(value);
   }, []);
 
   useEffect(() => {
     onCheckChanged(checked);
-  }, [checked]);
+  }, [checked, onCheckChanged]);
 
   return (
     <View className="flex w-full flex-row items-center justify-start gap-4">

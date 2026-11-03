@@ -1,5 +1,5 @@
-import ToDoListItems from "@/components/todo-list-items";
-import ToDoListTopWrapper from "@/components/todo-list-top-wrapper";
+import ToDoListItems from "@/components/single-items/todo-list-items";
+import ToDoListTopWrapper from "@/components/wrappers/todo-list-top-section";
 import { getGreeting } from "@/utils";
 import { images } from "@/utils/images";
 import { useLocalSearchParams } from "expo-router";

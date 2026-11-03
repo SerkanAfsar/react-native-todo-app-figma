@@ -1,11 +1,11 @@
-import CustomButton from "@/components/custom-button";
-import CustomInput from "@/components/custom-input";
+import CustomButton from "@/components/ui/custom-button";
+import CustomInput from "@/components/ui/custom-input";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "expo-router";
 import { Controller, useForm } from "react-hook-form";
 import { Text, TouchableOpacity, View } from "react-native";
 
-import TopWrapper from "@/components/top-wrapper";
+import TopWrapper from "@/components/wrappers/top-wrapper";
 import { registerSchema } from "@/schemas";
 import { RegisterType, UserType } from "@/types";
 import { cn, SetItem } from "@/utils";

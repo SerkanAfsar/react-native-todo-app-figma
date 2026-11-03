@@ -1,5 +1,5 @@
+import { cn } from "@/utils";
 import { Text, TouchableOpacity, TouchableOpacityProps } from "react-native";
-import { cn } from "../utils";
 
 type CustomButtonProps = {
   title: string;
