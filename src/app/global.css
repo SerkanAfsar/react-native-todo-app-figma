@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-poppins: "Poppins_400Regular";
+  --font-poppins-medium: "Poppins_500Medium";
+  --font-poppins-semibold: "Poppins_600SemiBold";
+  --font-poppins-bold: "Poppins_700Bold";
+}
